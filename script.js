@@ -1,7 +1,7 @@
 const form = document.getElementById("contactForm");
 const statusMessage = document.getElementById("statusMessage");
 
-const API_URL = "https://ojk4llwef1.execute-api.ap-south-1.amazonaws.com/prod/submit";
+const API_URL = "YOUR_API_GATEWAY_ENDPOINT";
 
 form.addEventListener("submit", async function (e) {
     e.preventDefault(); 
@@ -34,3 +34,4 @@ form.addEventListener("submit", async function (e) {
         console.error(error);
     }
 });
+
